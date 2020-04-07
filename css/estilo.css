@@ -1,0 +1,112 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(92, 109, 124);
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lobster', cursive;
+    color: rgb(68, 77, 86);
+}
+
+h1{
+    font-size: 60px;
+    text-shadow: 0.5px 1.5px #000;
+}
+
+h2,h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header, aside, main, footer{
+    width: 960px;
+    margin: 0 auto;
+}
+
+a{
+    color: rgb(175, 83, 140);
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+a:hover{
+    color: rgb(230, 11, 146);
+    text-decoration: underline;
+}
+
+.redes-sociais li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.redes-sociais img{
+    filter: opacity(0.3);
+    transition: all 0.5s ease-out;
+}
+
+.redes-sociais img:hover{
+    filter: opacity(1);
+}
+
+hr{
+    height: 2px;
+    background-color: rgb(68, 77, 86);
+    border: none;
+}
+
+
+.projetos{
+    width: 700px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.projetos li{
+    margin-bottom: 5px;
+    background-image: url('../imagens/projetos.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 19px;
+}
+
+.competencias{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.competencias li{
+    display: inline-block;
+    width: 150px;
+    
+    color: white;
+    padding: 10px;
+    margin: 4px;
+}
+
+.web{
+    background-color: #16a085;
+} 
+
+.infra{
+    background-color: #2ecc71;
+} 
+.design{
+    background-color: #2980b9;
+} 
+
+.banco{
+    background-color: #8e44ad;
+}
+
+
+footer{
+    margin-top: 30px; 
+    padding-bottom: 20px;
+    padding-top: 30px;
+    background-color: rgb(92, 109, 124);
+    color: white;
+    bottom: 0px;
+    position: fixed;
+    margin-left: calc((100% - 960px)/2);
+}
