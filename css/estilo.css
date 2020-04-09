@@ -25,6 +25,10 @@ header, aside, main, footer{
     margin: 0 auto;
 }
 
+main{
+    margin-bottom: 100px;
+}
+
 a{
     color: rgb(175, 83, 140);
     text-decoration: none;
@@ -101,7 +105,7 @@ hr{
 
 
 footer{
-    margin-top: 30px; 
+    margin-top: 50px; 
     padding-bottom: 20px;
     padding-top: 30px;
     background-color: rgb(92, 109, 124);
@@ -109,4 +113,24 @@ footer{
     bottom: 0px;
     position: fixed;
     margin-left: calc((100% - 960px)/2);
+}
+
+
+strong{
+    font-weight: bold;
+    color:  rgb(65, 75, 83);
+}
+
+.cursos{
+    width: 900px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.cursos li{
+    margin-bottom: 10px;
+    background-image: url('../imagens/cursos.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 19px;
 }
